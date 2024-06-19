@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos de Eduardo López Cerón</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .car {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .search {
+            width: 250px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Autos de Eduardo López Cerón</h1>
+    </header>
+    <div class="container">
+        <div class="search">
+            <h2>Búsqueda</h2>
+            <form>
+                <input type="text" placeholder="Buscar por modelo...">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="car" style="background-color: #ffcc00;">
+            <h2>Toyota</h2>
+            <p>Toyota, propiedad de Eduardo López Cerón. Año de fabricación: 2021. Color: Amarillo.</p>
+        </div>
+        <div class="car" style="background-color: #6699ff;">
+            <h2>Chevrolet</h2>
+            <p>Chevrolet, propiedad de Eduardo López Cerón. Año de fabricación: 2020. Color: Azul.</p>
+        </div>
+        <div class="car" style="background-color: #ff6666;">
+            <h2>Nissan</h2>
+            <p>Nissan, propiedad de Eduardo López Cerón. Año de fabricación: 2019. Color: Rojo.</p>
+        </div>
+        <div class="car" style="background-color: #99cc00;">
+            <h2>kia</h2>
+            <p>kia, propiedad de Eduardo López Cerón. Año de fabricación: 2018. Color: Verde.</p>
+        </div>
+        <!-- Puedes agregar más autos con diferentes colores y detalles -->
+    </div>
+</body>
+</html>
